@@ -1,5 +1,12 @@
 public class Basic {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        String a = "bhuwan";
+        String b = "bhuwana";
+
+        if (a == b) {
+            System.out.println("Strings are equal");
+        } else {
+            System.out.println("Strings are not equal");
+        }
     }
 }
